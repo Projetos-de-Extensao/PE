@@ -1,7 +1,9 @@
 :root  > * {
   --md-primary-fg-color:        #002555; 
-  --md-primary-fg-color--light: #f5ac00; 
-  --md-primary-fg-color--dark:  #1245ff;
+  --md-primary-fg-color--light: #1245ff; 
+  --md-primary-fg-color--dark:  #f5ac00;
+  --md-primary-bg-color:        #f5ac00;
+  
 }
 
 .hero {
@@ -26,6 +28,8 @@
     max-width: 800px;
     text-align: left;
 }
+
+
 
 /*#193257
 /*#FAB90A 
