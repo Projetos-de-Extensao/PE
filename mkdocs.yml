@@ -5,6 +5,8 @@ site_name: Projetos de Extensão
 copyright: Copyright ©️ 2025, jonh-carvalho / 2025
 
 theme:
+  logo: assets/img/ibmec_logo.png
+  favicon: assets/img/favicon_ibmec.png
   features:
     - content.code.copy
     - navigation.indexes
@@ -20,16 +22,18 @@ theme:
     - toc.follow
     - toc.integrate
   font:
-    text: Roboto
+    text: Ropa Sans #Rubik Philosopher
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
+    #logo: simple/django
   name: material
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/link
         name: Switch to light mode
+    
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
@@ -37,6 +41,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
+
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
@@ -96,13 +101,14 @@ markdown_extensions:
   - pymdownx.tilde
   # Data Tables
   - tables
-  - toc:
-      permalink: true
+  #- toc:
+   #   permalink: true
 
 plugins:
   - minify:
       minify_html: true
   - search
+  - blog
 
 
 

@@ -2,7 +2,34 @@
   --md-primary-fg-color:        #002555; 
   --md-primary-fg-color--light: #1245ff; 
   --md-primary-fg-color--dark:  #f5ac00;
+  --md-primary-bg-color:        #f5ac00;
+  
 }
+
+.hero {
+    background: linear-gradient(180deg, #002555 0%, #002555c1 100%);
+    color: #fff;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 1.2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #f5ac00;
+}
+.hero p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+
 
 /*#193257
 /*#FAB90A 
