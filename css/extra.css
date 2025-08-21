@@ -5,6 +5,9 @@
   --md-primary-bg-color:        #f5ac00;
   
 }
+a {
+    font-weight: bold;
+}
 
 .hero {
     background: linear-gradient(180deg, #002555 0%, #002555c1 100%);
